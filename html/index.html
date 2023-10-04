@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ledger">
+            <h2>income expense tracker</h2>
+            <h4>Your Balance</h4>
+            <h1 class="balance" id="balance">&#8377; 0.00</h1>
+            <div class="inc-exp-container">
+                <div class="inc">
+                    <h4>Income</h4>
+                    <p id="income-amt" class="amt-plus">&#8377; 0.00</p>
+                </div>
+                <div class="exp">
+                    <h4>Expense</h4>
+                    <p id="exp-amt" class="amt-minus">&#8377; 0.00</p>
+                </div>
+            </div>
+            <form action="" id="form">
+                <div class="form-control">
+                    <label for="desc">Description</label>
+                    <input type="text" name="desc" id="desc" placeholder="Description">
+                </div>
+                <div class="form-control">
+
+                    <label for="amount">Amount</label>
+                    <input type="number" name="amount" id="amount" placeholder="Amount">
+                </div>
+                <button class="btn" type="submit">Add Transaction</button>
+            </form>
+        </div>
+
+        <div class="transcation">
+            <h3>Transaction Detail</h3>
+            <ul class="trans" id="trans">
+                <!--- <li class="exp">Insurance <span>-1500</span>
+        <button class="btn-del">x</button>
+        </li>
+        <li class="inc">Salary<span>15000</span>
+            <button class="btn-del">x</button>
+            </li>
+            <li class="exp">Food<span>-5000</span>
+                <button class="btn-del">x</button>
+                </li>-->
+            </ul>
+
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
